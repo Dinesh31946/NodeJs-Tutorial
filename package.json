@@ -1,19 +1,18 @@
 {
-  "name": "y",
-  "version": "1.0.0",
-  "description": "nodejs tutorial chapter 1/1",
-  "main": "index.js",
+  "name": "fcc-learn-npm-package-json",
+  "author": "Dinesh Gosavi",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.11.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dinesh31946/NodeJs-Tutorial.git"
-  },
-  "author": "Dinesh Gosavi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Dinesh31946/NodeJs-Tutorial/issues"
-  },
-  "homepage": "https://github.com/Dinesh31946/NodeJs-Tutorial#readme"
+    "url": "https://github.com/Dinesh31946/NodeJs-Tutorial.git"
+  }
 }
